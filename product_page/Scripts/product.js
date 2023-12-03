@@ -42,7 +42,7 @@ function renderProductCards(data) {
 
     var textBox = document.createElement("p");
     textBox.setAttribute("id", "textBox");
-    textBox.innerHTML = "New Arrival";
+    textBox.innerHTML = "Bestseller";
     // Stars
     var ratingContainer = document.createElement("div");
     ratingContainer.setAttribute("id", "ratingContainer");
