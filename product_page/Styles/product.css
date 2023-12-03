@@ -17,6 +17,10 @@
   }
   .productListPageN {
     display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1E5EE;
   }
   
   #productListPage_filterAside {
@@ -110,7 +114,24 @@
     gap: 2%;
     padding: 15px;
   }
+
+  .filterLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   
+  .filterContainer{ 
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .filterBox{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+
   #imageDiv img {
     width: 100%;
   }
@@ -121,7 +142,9 @@
     flex-direction: column;
     height: 100%;
   }
-  
+  .productItem {
+    background-color: #ECEFF4;
+  }
   #imageAndWishListDiv {
     width: 100%;
     display: flex;
@@ -460,6 +483,7 @@
       .box3 {
         background-color: #e74c3c; /* Red */
       }
-  
+      
+      
   }
   

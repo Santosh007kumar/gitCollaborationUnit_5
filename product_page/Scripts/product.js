@@ -22,6 +22,7 @@ function renderProductCards(data) {
 
     var cardDiv = document.createElement("div");
     cardDiv.setAttribute("id", "productCardDiv");
+    cardDiv.setAttribute("class", "productItem");
     var imageAndWishListDiv = document.createElement("div");
     imageAndWishListDiv.setAttribute("id", "imageAndWishListDiv");
     var imageDiv = document.createElement("div");
@@ -119,7 +120,7 @@ function renderProductCards(data) {
       }
     });
     var noOfProducts = document.querySelector("#totalNoOfProducts");
-    noOfProducts.innerHTML = `${data.length} results`;
+    noOfProducts.innerHTML = `${data.length} items`;
 
     var parentDiv = document.querySelector("#productCatelog");
     parentDiv.append(cardDiv);
