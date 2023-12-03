@@ -22,7 +22,7 @@ function renderProductCards(data) {
 
     var cardDiv = document.createElement("div");
     cardDiv.setAttribute("id", "productCardDiv");
-    cardDiv.setAttribute("class", "productItem");
+    cardDiv.setAttribute("class", productItem)
     var imageAndWishListDiv = document.createElement("div");
     imageAndWishListDiv.setAttribute("id", "imageAndWishListDiv");
     var imageDiv = document.createElement("div");
