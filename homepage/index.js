@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (localStorage.getItem("isLoggedIn") === "true") {
         loginLink.style.display = "none";
         signupLink.style.display = "none";
-        userHello.innerText = Hello, ${isLoggedIn}
+        userHello.innerText = `Hello, ${isLoggedIn}`
         signoutLink.style.display = "block";
       } else {
         loginLink.style.display = "block";
